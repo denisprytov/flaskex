@@ -1,0 +1,6 @@
+В репозитории была зафиксирована версия 2.3.3 библитеки WTForms в файле
+requirements.txt, тк по умолчанию использовалась версия WTForms 3.0,
+из-за чего приложение завершалось с ошибкой при старте. Ошибка была из-за того,
+что в версии 3.0 были изменены названия методов:
+Deprecated API’s (https://wtforms.readthedocs.io/en/2.3.x/whats_new/):
+* wtforms.validators.Required is now wtforms.validators.DataRequired
